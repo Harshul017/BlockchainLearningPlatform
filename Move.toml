@@ -1,0 +1,15 @@
+[package]
+name = "BlockChainLearning"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x9b9e429eef6b565f6b1bd0e892e540956ade384c8e6a0c1f3661a827ce88e6a0"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
